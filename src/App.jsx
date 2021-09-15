@@ -81,7 +81,9 @@ function App() {
         <a href="#">see my work</a>
       </section>
 
-      <section id="aboutme"></section>
+      <section id="aboutme">
+        
+      </section>
 
       <section id="mywork"></section>
     </div>
