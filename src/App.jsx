@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import logo from "./img/logo.jpg";
+import logo from "./img/rabbit.png";
 import profile from "./img/profile.jpg";
 import profile2 from "./img/profile2.jpg";
 

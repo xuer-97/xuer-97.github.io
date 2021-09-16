@@ -1,9 +1,32 @@
+nav {
+  display: none;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+#home {
+  position: relative;
+}
+
+@media (min-width: 640px) {
+  #home {
+    display: grid;
+  }
+}
+
 .section-title {
 margin-bottom: .25em;
 }
 
 .section-title_intro {
+  font-weight: var(--fw-reg);
+}
 
+.section-title_intro strong {
+  display: block;
+  font-weight: var(--fw-bold);
 }
 
 .section-subtitle {
@@ -15,6 +38,7 @@ margin-bottom: .25em;
   background-color: var(--cl-accent);
   color: var(--cl-light);
   font-family: var(--ff-code);
+  margin-bottom: 1em;
 }
 
 .logo > img {
@@ -23,10 +47,10 @@ margin-bottom: .25em;
   border-radius: 50%;
 }
 
-#home > img {
+/* #home > img {
   height: 100px;
 }
 
 #aboutme > img {
   height: 100px;
-}
+} */
