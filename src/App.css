@@ -1,5 +1,20 @@
-.header {
-  background-color: burlywood;
+.section-title {
+margin-bottom: .25em;
+}
+
+.section-title_intro {
+
+}
+
+.section-subtitle {
+  margin: 0;
+  font-size: var(--fs-h3);
+}
+
+.section-subtitle_accent {
+  background-color: var(--cl-accent);
+  color: var(--cl-light);
+  font-family: var(--ff-code);
 }
 
 .logo > img {
@@ -9,5 +24,9 @@
 }
 
 #home > img {
+  height: 100px;
+}
+
+#aboutme > img {
   height: 100px;
 }
